@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YM6QB1EJ9L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YM6QB1EJ9L');
+    </script>
+    <script src="src/main.js"></script> 
+    <link rel="stylesheet" href="src/styless.css">
+    <title>Hadaly Villasclaras</title>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <script type="text/javascript">
+        const cursor = document.querySelector(".cursor");
+        document.addEventListener("mousemove", (e) => {
+            let x = e.pageX;
+            let y = e.pageY;
+
+            cursor.style.top = y + "px";
+            cursor.style.left = x + "px";
+        })
+    </script>
+
+    <header id="global-header">
+        <nav class="menu-bs">
+            <div class="hv"> <a href="index.html">Hadaly Villasclaras</a></div>
+            <div class="list">
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+        </nav>
+
+        <nav id="menu-ss">
+
+            <div class="hv"> <a href="index.html">Hadaly Villasclaras</a></div>
+            <div id="menu-toggle">
+                <a class="open-menu" href="#menu-ss"><span>—</span></a>
+                <a class="close-menu" href="#"><span>x</span></a>
+            </div>
+
+            <div class="menu-content">
+                <ul class="menu-items">
+                    <li class="menu-item"><a href="about.html">About</a></li>
+                    <li class="menu-item"><a href="news.html">News</a></li>
+                    <li class="menu-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home-sect">
+        <article class="projects-list">
+            <ul>
+                <li>
+                    <a id="plist-bot" href="http://www.unaimagenbot.com">
+                        <img src="assets/img/una_imagen_bot.png" alt="Una Imagen Bot" style="width: 45%;">
+                    </a>
+                </li>
+
+                <li>
+                    <a id="neo-title-1" href="neo-fantasy-tales.html">
+                        <img src="assets/img/neo_fantasy_tales.png" alt="Neo Fantasy Tales" style="width: 90%;">
+                    </a>
+                    <a id="neo-title-2" href="neo-fantasy-tales.html">
+                        <img src="assets/img/neo_fantasy_tales-2.png" alt="Neo Fantasy Tales" style="width: 90%;">
+                    </a>
+                </li>
+
+                <li>
+                    <a id="plist-real" href="cien-real.html">
+                        <img src="assets/img/cien_real.png" style="width: 30%;">
+                    </a>
+                </li>
+
+                <li>
+                    <a id="plist-lost" href="i-lost-a-picture-i-had-saved.html">
+                        <img src="assets/img/i_lost_a_pic.png" alt="I lost a picture I had saved" style="width: 76%;">
+                    </a>
+                </li>
+
+                <li>
+                    <a id="plist-vanitas" href="vanitas.html">
+                        <img src="assets/img/vanitas.png" alt="A flitting thing" style="width: 60%;">
+                    </a>
+                </li>
+
+                <li>
+                    <a id="plist-oldworks" href="old-works.html">
+                        <img src="assets/img/oldworks.png" title="Under construction!" alt="Old Works" style="width: 37%;">
+                    </a>
+                </li>
+            </ul>
+        </article>
+    </section>
+
+</body>
+
+</html>
